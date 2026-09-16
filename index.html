@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Академия Маникюра и Педикюра "Art-Vladi"</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&family=Montserrat:wght@300;400;600&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Навигация -->
+    <header class="header">
+        <div class="container">
+            <nav class="nav">
+                <div class="logo">
+    <img src="https://i.imgur.com/aWWOwSJ.png" alt="Логотип академии" class="logo-image">
+            </div>
+                <ul class="nav-menu">
+                    <li><a href="#about">Об академии</a></li>
+                    <li><a href="#courses">Курсы</a></li>
+                    <li><a href="#advantages">Галерея</a></li>
+                </ul>
+                <button class="nav-btn" onclick="scrollToContact()">Записаться</button>
+                <div class="burger" onclick="toggleMenu()">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Главный экран -->
+    <section class="hero" id="hero">
+        <div class="hero-content">
+            <h1 class="hero-title">Стань мастером<br>ногтевого сервиса</h1>
+            <p class="hero-subtitle">Профессиональное обучение маникюру и педикюру от мастера<br>до чемпиона</p>
+            <button class="hero-btn" onclick="scrollToCourses()">Подробнее о курсах</button>
+        </div>
+    </section>
+
+    <!-- Об академии -->
+    <section class="about" id="about">
+        <div class="container">
+            <h2 class="section-title">Об <span class="gold">академии</span></h2>
+            <div class="about-content">
+                <div class="about-text">
+                    <p>Арт-Влади - обучение в индустрии красоты.</p>
+                    <p>Мы предлагаем комплексные программы обучения, охватывающие все аспекты наращивания ногтей - от классических техник до инновационных методов, а так же курсы дизайнов любой сложности, которые дают возможность применять техники, как в салонном варианте, так и в конкурсных работах.</p>
+                    <p>Пройдя свой путь от начинающего мастера до судьи международного класса, смело могу делиться своим опытом и направлять мастеров, чтобы не пилили по 10-15 лет и не гробили свое здоровье, а зарабатывали деньги и уверенно шли вперед!</p>
+                    <p>В моей команде чемпионов, где 250 золотых медалей, мастера становятся чемпионами мира, открывают свои студии, становятся лучшими мастерами, инструкторами и судьями. Выходят на новые карьерные ступеньки и создают уже свои команды.</p>
+                    <p>На первый взгляд обывателю и непонятно, что представленные работы сделаны из материалов ногтевого сервиса!! В регламенте это прописано красным по белому! А сколько там детализации, работы со сложными материалами. Но, именно эти работы, показывают высшее мастерство мастеров в моей команде.</p>
+                    <ul class="about-list">
+                        <li>- Более 18 лет опыта обучения</li>
+                        <li>- Более 4000 выпускников</li>
+                        <li>- Команда, 250 золотых медалей</li>
+                        <li>- Авторские методики</li>
+                    </ul>
+                </div>
+                <div class="about-image">
+                    <div class="video-placeholder">
+                        <video controls>
+                            <source src="https://i.imgur.com/6lp9we1.mp4" type="video/mp4">
+                            Ваш браузер не поддерживает видео.
+                        </video>
+                    </div>
+                <!-- Документы -->
+                    <div class="documents-grid">
+                        <div class="document-card" onclick="openImage('https://i.imgur.com/Xc0Uqd7.jpeg')">
+                            <img src="https://i.imgur.com/Xc0Uqd7.jpeg" alt="Лицензия академии">
+                        </div>
+                        <div class="document-card" onclick="openImage('https://i.imgur.com/b4Oe5aq.jpeg')">
+                            <img src="https://i.imgur.com/b4Oe5aq.jpeg" alt="Сертификат">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Курсы -->
+    <section class="courses" id="courses">
+        <div class="container">
+            <h2 class="section-title"><span class="gold">Курсы</span></h2>
+            <div class="courses-grid">
+                <!-- Курс 1 -->
+                <div class="course-card" >
+                    <img src="https://i.imgur.com/5agPsJZ.jpeg" alt="Курс" class="course-image" onclick="openImage('https://i.imgur.com/5agPsJZ.jpeg')">
+                    <button class="course-btn" onclick="openModal(1)">Подробнее</button>
+                </div>
+
+                <!-- Курс 2 -->
+                <div class="course-card" >
+                    <img src="img/курс2.jpg" alt="Курс" class="course-image" onclick="openImage('img/курс2.jpg')">
+                    <button class="course-btn" onclick="openModal(2)">Подробнее</button>
+                </div>
+
+                <!-- Курс 3 -->
+                <div class="course-card" >
+                    <img src="https://i.imgur.com/cRLgFaD.jpeg" alt="Курс" class="course-image" onclick="openImage('https://i.imgur.com/cRLgFaD.jpeg')">
+                    <button class="course-btn" onclick="openModal(3)">Подробнее</button>
+                </div>
+
+                <!-- Курс 4 -->
+                <div class="course-card" >
+                    <img src="https://i.imgur.com/sqfA5Hs.jpeg" alt="Курс" class="course-image" onclick="openImage('https://i.imgur.com/sqfA5Hs.jpeg')">
+                    <button class="course-btn" onclick="openModal(4)">Подробнее</button>
+                </div>
+
+                <!-- Курс 5 -->
+                <div class="course-card" >
+                    <img src="https://i.imgur.com/UWvZkB7.jpeg" alt="Курс" class="course-image" onclick="openImage('https://i.imgur.com/UWvZkB7.jpeg')">
+                    <button class="course-btn" onclick="openModal(5)">Подробнее</button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+        <!-- Наши выпускницы -->
+    <section class="advantages" id="advantages">
+        <div class="container">
+            <h2 class="section-title">Наши <span class="gold">выпускницы</span></h2>
+            <div class="graduates-grid">
+                <div class="graduate-card">
+                    <div class="graduate-photo">
+                        <img src="https://i.imgur.com/Fj1BsCg.jpeg" alt="Выпускница 1">
+                    </div>
+                </div>
+                <div class="graduate-card">
+                    <div class="graduate-photo">
+                        <img src="https://i.imgur.com/JRO1FMQ.jpeg" alt="Выпускница 2">
+                    </div>
+                </div>
+                <div class="graduate-card">
+                    <div class="graduate-photo">
+                        <img src="https://i.imgur.com/exCsK2n.jpeg" alt="Выпускница 3">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+        <!-- Наши чемпионки -->
+    <section class="champions" id="champions">
+        <div class="container">
+            <h2 class="section-title">Наши <span class="gold">чемпионки</span></h2>
+            <div class="graduates-grid">
+                <div class="graduate-card">
+                    <div class="graduate-photo">
+                        <img src="https://i.imgur.com/qYX0szP.jpeg" alt="Чемпионка 1">
+                    </div>
+                </div>
+                <div class="graduate-card">
+                    <div class="graduate-photo">
+                        <img src="https://i.imgur.com/oh909xo.jpeg" alt="Чемпионка 2">
+                    </div>
+                </div>
+                <div class="graduate-card">
+                    <div class="graduate-photo">
+                        <img src="https://i.imgur.com/EGVRJlp.jpeg" alt="Чемпионка 3">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Контакты -->
+    <section class="contact" id="contact">
+        <div class="container">
+            <h2 class="section-title">Свяжитесь <span class="gold">с нами</span></h2>
+            <div class="contact-content">
+                <div class="contact-info">
+                    <p><strong>Адрес:</strong> г. Горячий ключ, ул. Ленина 220/2</p>
+                    <p><strong>Телефон:</strong> +7 (962) 408-51-51</p>
+                    <p><strong>Канал в MAX:</strong> <a href="https://max.ru/channel_Artvladi">Академия "Арт-Влади"</a></p>
+                    <p><strong>Часы работы:</strong> Пн-Сб: 9:00 - 19:00</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+<!-- Модальное окно -->
+<div class="modal" id="courseModal">
+    <div class="modal-content">
+        <div class="modal-header">
+            <h2 class="modal-title">Базовый курс <span class="gold">маникюра</span></h2>
+            <button class="modal-close" onclick="closeModal()">&times;</button>
+        </div>
+        <div class="modal-body">
+            <div class="modal-section">
+                <h3 class="modal-section-title">ОРГАНИЗАЦИЯ</h3>
+                <p><strong>Длительность:</strong> 7 дней.</p>
+                <p><strong>Форматы:</strong> будни (ПН–ПТ, 9:00–16:00, обед 12–13) или выходные (СБ–ВС, 10:00–16:00, обед 13–13:30, доп. плата).</p>
+                <p><strong>Группы:</strong> до 6–8 чел. или индивидуально (цена отдельно).</p>
+            </div>
+            
+            <div class="modal-section">
+                <h3 class="modal-section-title">ОПЛАТА</h3>
+                <p>50% при бронировании, 50% в первый день. Рассрочка через банки-партнёры.</p>
+            </div>
+            
+            <div class="modal-section">
+                <h3 class="modal-section-title">ЧТО ВХОДИТ</h3>
+                <p>Все расходники и материалы предоставляются. После обучения можно приобрести материалы в центре.</p>
+            </div>
+            
+            <div class="modal-section">
+                <h3 class="modal-section-title">ДОКУМЕНТЫ</h3>
+                <p>Сертификат с занесением в ФИС ФРДО, действует по всей РФ.</p>
+            </div>
+            
+            <div class="modal-section">
+                <h3 class="modal-section-title">ДЛЯ ЗАЧИСЛЕНИЯ</h3>
+                <p>Паспорт (копия), СНИЛС, договор (подписывается в центре).</p>
+            </div>
+            
+            <div class="modal-section modal-highlight">
+                <p><strong>ЗАПИСЬ</strong> – по телефону или мессенджеру.</p>
+            </div>
+            
+            <button class="modal-btn" onclick="closeModal()">Закрыть</button>
+        </div>
+    </div>
+</div>
+    <script src="script.js"></script>
+</body>
+</html>
