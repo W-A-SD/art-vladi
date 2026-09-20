@@ -14,7 +14,7 @@
         <div class="container">
             <nav class="nav">
                 <div class="logo">
-    <img src="https://i.imgur.com/aWWOwSJ.png" alt="Логотип академии" class="logo-image">
+    <img src="img/logo.png" alt="Логотип академии" class="logo-image">
             </div>
                 <ul class="nav-menu">
                     <li><a href="#about">Об академии</a></li>
@@ -61,17 +61,17 @@
                 <div class="about-image">
                     <div class="video-placeholder">
                         <video controls>
-                            <source src="https://i.imgur.com/6lp9we1.mp4" type="video/mp4">
+                            <source src="img/работы.mp4" type="video/mp4">
                             Ваш браузер не поддерживает видео.
                         </video>
                     </div>
                 <!-- Документы -->
                     <div class="documents-grid">
-                        <div class="document-card" onclick="openImage('https://i.imgur.com/Xc0Uqd7.jpeg')">
-                            <img src="https://i.imgur.com/Xc0Uqd7.jpeg" alt="Лицензия академии">
+                        <div class="document-card" onclick="openImage('img/свидетельство.jpg')">
+                            <img src="img/свидетельство.jpg" alt="Лицензия академии">
                         </div>
-                        <div class="document-card" onclick="openImage('https://i.imgur.com/b4Oe5aq.jpeg')">
-                            <img src="https://i.imgur.com/b4Oe5aq.jpeg" alt="Сертификат">
+                        <div class="document-card" onclick="openImage('img/дипломы.jpg')">
+                            <img src="img/дипломы.jpg" alt="Сертификат">
                         </div>
                     </div>
                 </div>
@@ -83,36 +83,45 @@
     <section class="courses" id="courses">
         <div class="container">
             <h2 class="section-title"><span class="gold">Курсы</span></h2>
+            <div class="carousel-wrapper">
+            <button class="carousel-arrow carousel-arrow-left" onclick="scrollCarousel(this, -1)">‹</button>
             <div class="courses-grid">
                 <!-- Курс 1 -->
                 <div class="course-card" >
-                    <img src="https://i.imgur.com/5agPsJZ.jpeg" alt="Курс" class="course-image" onclick="openImage('https://i.imgur.com/5agPsJZ.jpeg')">
+                    <img src="img/курс1.jpg" alt="Курс" class="course-image" onclick="openImage('img/курс1.jpg')">
+                    <img src="img/рамка.png" class="card-frame frame-course" alt="">
                     <button class="course-btn" onclick="openModal(1)">Подробнее</button>
                 </div>
 
                 <!-- Курс 2 -->
                 <div class="course-card" >
                     <img src="img/курс2.jpg" alt="Курс" class="course-image" onclick="openImage('img/курс2.jpg')">
+                    <img src="img/рамка.png" class="card-frame frame-course" alt="">
                     <button class="course-btn" onclick="openModal(2)">Подробнее</button>
                 </div>
 
                 <!-- Курс 3 -->
                 <div class="course-card" >
-                    <img src="https://i.imgur.com/cRLgFaD.jpeg" alt="Курс" class="course-image" onclick="openImage('https://i.imgur.com/cRLgFaD.jpeg')">
+                    <img src="img/курс3.jpg" alt="Курс" class="course-image" onclick="openImage('img/курс3.jpg')">
+                    <img src="img/рамка.png" class="card-frame frame-course" alt="">
                     <button class="course-btn" onclick="openModal(3)">Подробнее</button>
                 </div>
 
                 <!-- Курс 4 -->
                 <div class="course-card" >
-                    <img src="https://i.imgur.com/sqfA5Hs.jpeg" alt="Курс" class="course-image" onclick="openImage('https://i.imgur.com/sqfA5Hs.jpeg')">
+                    <img src="img/курс4.jpg" alt="Курс" class="course-image" onclick="openImage('img/курс4.jpg')">
+                    <img src="img/рамка.png" class="card-frame frame-course" alt="">
                     <button class="course-btn" onclick="openModal(4)">Подробнее</button>
                 </div>
 
                 <!-- Курс 5 -->
                 <div class="course-card" >
-                    <img src="https://i.imgur.com/UWvZkB7.jpeg" alt="Курс" class="course-image" onclick="openImage('https://i.imgur.com/UWvZkB7.jpeg')">
+                    <img src="img/курс5.jpg" alt="Курс" class="course-image" onclick="openImage('img/курс5.jpg')">
+                    <img src="img/рамка.png" class="card-frame frame-course" alt="">
                     <button class="course-btn" onclick="openModal(5)">Подробнее</button>
                 </div>
+            </div>
+            <button class="carousel-arrow carousel-arrow-right" onclick="scrollCarousel(this, 1)">›</button>
             </div>
         </div>
     </section>
@@ -121,21 +130,46 @@
     <section class="advantages" id="advantages">
         <div class="container">
             <h2 class="section-title">Наши <span class="gold">выпускницы</span></h2>
+            <div class="carousel-wrapper">
+            <button class="carousel-arrow carousel-arrow-left" onclick="scrollCarousel(this, -1)">‹</button>
             <div class="graduates-grid">
                 <div class="graduate-card">
                     <div class="graduate-photo">
-                        <img src="https://i.imgur.com/Fj1BsCg.jpeg" alt="Выпускница 1">
+                        <img src="img/выпуск1.jpg" alt="Выпускница 1">
+                        <img src="img/рамка.png" class="card-frame frame-graduate" alt="">
                     </div>
                 </div>
                 <div class="graduate-card">
                     <div class="graduate-photo">
-                        <img src="https://i.imgur.com/JRO1FMQ.jpeg" alt="Выпускница 2">
+                        <img src="img/выпуск2.jpg" alt="Выпускница 2">
+                        <img src="img/рамка.png" class="card-frame frame-graduate" alt="">
                     </div>
                 </div>
                 <div class="graduate-card">
                     <div class="graduate-photo">
-                        <img src="https://i.imgur.com/exCsK2n.jpeg" alt="Выпускница 3">
+                        <img src="img/выпуск3.jpg" alt="Выпускница 3">
+                        <img src="img/рамка.png" class="card-frame frame-graduate" alt="">
                     </div>
+                </div>
+                <div class="graduate-card">
+                    <div class="graduate-photo">
+                        <img src="img/выпуск4.jpg" alt="Выпускница 4">
+                        <img src="img/рамка.png" class="card-frame frame-graduate" alt="">
+                    </div>
+                </div>
+                <div class="graduate-card">
+                    <div class="graduate-photo">
+                        <img src="img/выпуск5.jpg" alt="Выпускница 5">
+                        <img src="img/рамка.png" class="card-frame frame-graduate" alt="">
+                    </div>
+                </div>
+                <div class="graduate-card">
+                    <div class="graduate-photo">
+                        <img src="img/выпуск6.jpg" alt="Выпускница 6">
+                        <img src="img/рамка.png" class="card-frame frame-graduate" alt="">
+                    </div>
+                </div>
+                <button class="carousel-arrow carousel-arrow-right" onclick="scrollCarousel(this, 1)">›</button>
                 </div>
             </div>
         </div>
@@ -145,21 +179,46 @@
     <section class="champions" id="champions">
         <div class="container">
             <h2 class="section-title">Наши <span class="gold">чемпионки</span></h2>
+            <div class="carousel-wrapper">
+            <button class="carousel-arrow carousel-arrow-left" onclick="scrollCarousel(this, -1)">‹</button>
             <div class="graduates-grid">
                 <div class="graduate-card">
                     <div class="graduate-photo">
-                        <img src="https://i.imgur.com/qYX0szP.jpeg" alt="Чемпионка 1">
+                        <img src="img/чемп1.jpg" alt="Чемпионка 1">
+                        <img src="img/рамка.png" class="card-frame frame-graduate" alt="">
                     </div>
                 </div>
                 <div class="graduate-card">
                     <div class="graduate-photo">
-                        <img src="https://i.imgur.com/oh909xo.jpeg" alt="Чемпионка 2">
+                        <img src="img/чемп2.jpg" alt="Чемпионка 2">
+                        <img src="img/рамка.png" class="card-frame frame-graduate" alt="">
                     </div>
                 </div>
                 <div class="graduate-card">
                     <div class="graduate-photo">
-                        <img src="https://i.imgur.com/EGVRJlp.jpeg" alt="Чемпионка 3">
+                        <img src="img/чемп3.jpg" alt="Чемпионка 3">
+                        <img src="img/рамка.png" class="card-frame frame-graduate" alt="">
                     </div>
+                </div>
+                 <div class="graduate-card">
+                    <div class="graduate-photo">
+                        <img src="img/чемп4.jpg" alt="Чемпионка 4">
+                        <img src="img/рамка.png" class="card-frame frame-graduate" alt="">
+                    </div>
+                </div>
+                <div class="graduate-card">
+                    <div class="graduate-photo">
+                        <img src="img/чемп5.jpg" alt="Чемпионка 5">
+                        <img src="img/рамка.png" class="card-frame frame-graduate" alt="">
+                    </div>
+                </div>
+                <div class="graduate-card">
+                    <div class="graduate-photo">
+                        <img src="img/чемп6.jpg" alt="Чемпионка 6">
+                        <img src="img/рамка.png" class="card-frame frame-graduate" alt="">
+                    </div>
+                </div>
+                <button class="carousel-arrow carousel-arrow-right" onclick="scrollCarousel(this, 1)">›</button>
                 </div>
             </div>
         </div>

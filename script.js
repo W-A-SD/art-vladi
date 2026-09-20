@@ -423,3 +423,19 @@ document.addEventListener('keydown', function(event) {
         }
     }
 });
+
+// Прокрутка по стрелочкам
+function scrollCarousel(btn, direction) {
+    const wrapper = btn.closest('.carousel-wrapper');
+    const grid = wrapper.querySelector('.courses-grid, .graduates-grid');
+    if (!grid) return;
+    
+    const card = grid.querySelector('.course-card, .graduate-card');
+    if (!card) return;
+    
+    const cardWidth = card.offsetWidth + 30;
+    grid.scrollBy({
+        left: cardWidth * direction,
+        behavior: 'smooth'
+    });
+}
