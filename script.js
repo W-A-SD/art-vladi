@@ -239,7 +239,7 @@ function openModal(courseNumber) {
                 <div class="modal-section">
                     <h3 class="modal-section-title">ЦЕНА</h3>
                     <p><strong>25 000 ₽</strong></p>
-                    <p>50% при бронировании, 50% в первый день. Рассрочка через банки-партнёры (Т-Банк, СберБанк,Альфа-Банк).</p>
+                    <p>Рассрочка через банки-партнёры (Т-Банк, СберБанк).</p>
                 </div>
                 <div class="modal-section">
                     <h3 class="modal-section-title">ЧТО ВХОДИТ</h3>
@@ -253,7 +253,7 @@ function openModal(courseNumber) {
                 </div>
                 <div class="modal-section">
                     <h3 class="modal-section-title">ДЛЯ ЗАЧИСЛЕНИЯ</h3>
-                    <p>Паспорт (копия 1-й страницы и прописки), СНИЛС, Договор на обучение (подписывается в центре перед началом занятий).</p>
+                    <p>Договор на обучение (подписывается в центре перед началом занятий).</p>
                 </div>
             `
         },
@@ -298,7 +298,7 @@ function openModal(courseNumber) {
                 <div class="modal-section">
                     <h3 class="modal-section-title">ЦЕНА</h3>
                     <p><strong>35 000 ₽</strong></p>
-                    <p>50% при брони, 50% в первый день. Рассрочка через банки-партнёры (Т-Банк, СберБанк,Альфа-Банк).</p>
+                    <p>Рассрочка через банки-партнёры (Т-Банк, СберБанк).</p>
                 </div>
                 <div class="modal-section">
                     <h3 class="modal-section-title">ЧТО ВХОДИТ</h3>
@@ -312,7 +312,7 @@ function openModal(courseNumber) {
                 </div>
                 <div class="modal-section">
                     <h3 class="modal-section-title">ДЛЯ ЗАЧИСЛЕНИЯ</h3>
-                    <p>Паспорт (копия 1-й страницы и прописки), СНИЛС, Договор на обучение (подписывается в центре перед началом занятий).</p>
+                    <p>Договор на обучение (подписывается в центре перед началом занятий).</p>
                 </div>
             `
         },
@@ -369,7 +369,7 @@ function openModal(courseNumber) {
                 </div>
                 <div class="modal-section">
                     <h3 class="modal-section-title">ДЛЯ ЗАЧИСЛЕНИЯ</h3>
-                    <p>Паспорт (копия 1-й страницы и прописки), СНИЛС, Договор на обучение (подписывается в центре перед началом занятий).</p>
+                    <p>Договор на обучение (подписывается в центре перед началом занятий).</p>
                 </div>
             `
         },
@@ -399,7 +399,7 @@ function openModal(courseNumber) {
                 <div class="modal-section">
                     <h3 class="modal-section-title">ЦЕНА</h3>
                     <p>От <strong>10 000 ₽</strong> (в зависимости от сложности номинации)</p>
-                    <p>50% при брони, 50% в первый день. Рассрочка через банки-партнёры (Т-Банк, СберБанк,Альфа-Банк).</p>
+                    <p>Рассрочка через банки-партнёры (Т-Банк, СберБанк).</p>
                 </div>
                 <div class="modal-section">
                     <h3 class="modal-section-title">ЧТО ВХОДИТ</h3>
@@ -413,7 +413,7 @@ function openModal(courseNumber) {
                 </div>
                 <div class="modal-section">
                     <h3 class="modal-section-title">ДЛЯ ЗАЧИСЛЕНИЯ</h3>
-                    <p>Паспорт (копия 1-й страницы и прописки), СНИЛС, Договор на обучение (подписывается в центре перед началом занятий).</p>
+                    <p>Договор на обучение (подписывается в центре перед началом занятий).</p>
                 </div>
             `
         },
@@ -446,7 +446,7 @@ function openModal(courseNumber) {
                 <div class="modal-section">
                     <h3 class="modal-section-title">ЦЕНА</h3>
                     <p><strong>45 000 ₽</strong></p>
-                    <p>50% при брони, 50% в первый день. Рассрочка через банки-партнёры (Т-Банк, СберБанк,Альфа-Банк).</p>
+                    <p>Рассрочка через банки-партнёры (Т-Банк, СберБанк).</p>
                 </div>
                 <div class="modal-section">
                     <h3 class="modal-section-title">ЧТО ВХОДИТ</h3>
@@ -460,7 +460,7 @@ function openModal(courseNumber) {
                 </div>
                 <div class="modal-section">
                     <h3 class="modal-section-title">ДЛЯ ЗАЧИСЛЕНИЯ</h3>
-                    <p>Паспорт (копия 1-й страницы и прописки), СНИЛС, Договор на обучение (подписывается в центре перед началом занятий).</p>
+                    <p>Договор на обучение (подписывается в центре перед началом занятий).</p>
                 </div>
             `
         },
@@ -517,7 +517,7 @@ function openModal(courseNumber) {
                 </div>
                 <div class="modal-section">
                     <h3 class="modal-section-title">ДЛЯ ЗАЧИСЛЕНИЯ</h3>
-                    <p>Паспорт (копия 1-й страницы и прописки), СНИЛС, Договор на обучение (подписывается в центре перед началом занятий).</p>
+                    <p>Договор на обучение (подписывается в центре перед началом занятий).</p>
                 </div>
             `
         },
@@ -571,7 +571,7 @@ function openModal(courseNumber) {
                 </div>
                 <div class="modal-section">
                     <h3 class="modal-section-title">ДЛЯ ЗАЧИСЛЕНИЯ</h3>
-                    <p>Паспорт (копия 1-й страницы и прописки), СНИЛС, Договор на обучение (подписывается в центре перед началом занятий).</p>
+                    <p>Договор на обучение (подписывается в центре перед началом занятий).</p>
                 </div>
             `
         },
@@ -636,7 +636,7 @@ function openModal(courseNumber) {
                 </div>
                 <div class="modal-section">
                     <h3 class="modal-section-title">ДЛЯ ЗАЧИСЛЕНИЯ</h3>
-                    <p>Паспорт (копия 1-й страницы и прописки), СНИЛС, Договор на обучение (подписывается в центре перед началом занятий).</p>
+                    <p>Договор на обучение (подписывается в центре перед началом занятий).</p>
                 </div>
             `
         }
