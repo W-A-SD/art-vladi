@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Академия Маникюра и Педикюра "Art-Vladi"</title>
+    <link rel="icon" type="image/png" href="img/logo.png">
     <link rel="stylesheet" href="style.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&family=Montserrat:wght@300;400;600&display=swap" rel="stylesheet">
@@ -17,9 +18,11 @@
     <img src="img/logo.png" alt="Логотип академии" class="logo-image">
             </div>
                 <ul class="nav-menu">
+                    <li><a href="#trainer">Тренер</a></li>
                     <li><a href="#about">Об академии</a></li>
                     <li><a href="#courses">Курсы</a></li>
                     <li><a href="#advantages">Галерея</a></li>
+                    <li><a href="#reviews">Отзывы</a></li>
                 </ul>
                 <button class="nav-btn" onclick="scrollToContact()">Записаться</button>
                 <div class="burger" onclick="toggleMenu()">
@@ -34,29 +37,59 @@
     <!-- Главный экран -->
     <section class="hero" id="hero">
         <div class="hero-content">
-            <h1 class="hero-title">Стань мастером<br>ногтевого сервиса</h1>
+            <h1 class="hero-title">Академия<br>Арт-Влади</h1>
             <p class="hero-subtitle">Профессиональное обучение маникюру и педикюру от мастера<br>до чемпиона</p>
             <button class="hero-btn" onclick="scrollToCourses()">Подробнее о курсах</button>
+        </div>
+    </section>
+
+        <!-- Тренер -->
+    <section class="trainer" id="trainer">
+        <div class="container">
+            <h2 class="section-title">Тренер. Инструктор. Судья</h2>
+            <div class="trainer-content">
+                <div class="trainer-photo">
+                    <img src="img/тренер.jpg" alt="Тренер академии">
+                </div>
+                <div class="trainer-info">
+                    <h3 class="trainer-name">Владлена Бромберг</h3>
+                    <ul class="trainer-achievements">
+                        <li>⚜️Многократный победитель Чемпионатов России, Европы, Мира 20 лет в Beauty industry;</li>
+                        <li>⚜️Сертифицированный Премиум-Судья, по версии OMC ,KOVA;</li>
+                        <li>⚜️Инструктор и преподаватель online & offline. Более 30 авторских курсов по маникюру, моделированию и дизайну ногтей;</li>
+                        <li>⚜️Тренер «Золотых чемпионов», основатель и руководитель команды "Арт-Влади", (250 золотых медали из 251 заявленных номинаций) Чемпионаты и конкуры России,Европы,Мира;</li>
+                        <li>⚜️Награждена благодарностью от Губернатора Ставропольского и Краснодарского края, "За достигнутые успехи и вклад в развитие Индустрии красоты";</li>
+                        <li>⚜️Звание  "Золотая команда", Командный ГРАН- ПРИ Чемпионата Мира;</li>
+                        <li>⚜️Лауреат Премии «Женщина года», 2013 г.Пятигорск;</li>
+                        <li>⚜️Лауреат Премии Персона года DORÉ, KOVA, в номинации "Лучший тренер. За вклад развитие конкурсного движения", 2022,2023,2024, г.Москва;</li>
+                        <li>⚜️Преподаватель Международного лицензированного учебного центра KOVA «Я-премиум Судья» 2024 г.;</li>
+                        <li>⚜️Судья Международных чемпионатов</li>
+                        <li>⚜️Звание Заслуженного тренер России 2025 г.;</li>
+                        <li>⚜️командный Гран-При 2016, 2023, 2025 г.;</li>
+                        <li>⚜️Спикер online конгрессов;</li>
+                        <li>⚜️Публикации в глянцевых журналах.</li>
+                    </ul>
+                </div>
+            </div>
         </div>
     </section>
 
     <!-- Об академии -->
     <section class="about" id="about">
         <div class="container">
-            <h2 class="section-title">Об <span class="gold">академии</span></h2>
+            <h2 class="section-title">Арт-Влади - обучение в индустрии красоты</h2>
             <div class="about-content">
                 <div class="about-text">
-                    <p>Арт-Влади - обучение в индустрии красоты.</p>
-                    <p>Мы предлагаем комплексные программы обучения, охватывающие все аспекты наращивания ногтей - от классических техник до инновационных методов, а так же курсы дизайнов любой сложности, которые дают возможность применять техники, как в салонном варианте, так и в конкурсных работах.</p>
-                    <p>Пройдя свой путь от начинающего мастера до судьи международного класса, смело могу делиться своим опытом и направлять мастеров, чтобы не пилили по 10-15 лет и не гробили свое здоровье, а зарабатывали деньги и уверенно шли вперед!</p>
-                    <p>В моей команде чемпионов, где 250 золотых медалей, мастера становятся чемпионами мира, открывают свои студии, становятся лучшими мастерами, инструкторами и судьями. Выходят на новые карьерные ступеньки и создают уже свои команды.</p>
-                    <p>На первый взгляд обывателю и непонятно, что представленные работы сделаны из материалов ногтевого сервиса!! В регламенте это прописано красным по белому! А сколько там детализации, работы со сложными материалами. Но, именно эти работы, показывают высшее мастерство мастеров в моей команде.</p>
+                    <p class="about-motto">Побеждает в этой жизни тот, кто победил сам себя. Кто победил свой страх, свою лень и свою нуверенность.</p>
                     <ul class="about-list">
                         <li>- Более 18 лет опыта обучения</li>
                         <li>- Более 4000 выпускников</li>
                         <li>- Команда, 250 золотых медалей</li>
                         <li>- Авторские методики</li>
                     </ul>
+                    <p>Мы предлагаем комплексные программы обучения, охватывающие все аспекты наращивания ногтей - от классических техник до инновационных методов, а так же курсы дизайнов любой сложности, которые дают возможность применять техники, как в салонном варианте, так и в конкурсных работах.</p>
+                    <p>Пройдя свой путь от начинающего мастера до судьи международного класса, смело могу делиться своим опытом и направлять мастеров, чтобы не пилили по 10-15 лет и не гробили свое здоровье, а зарабатывали деньги и уверенно шли вперед!</p>
+                    <p>В моей команде чемпионов, где 250 золотых медалей, мастера становятся чемпионами мира, открывают свои студии, становятся лучшими мастерами, инструкторами и судьями. Выходят на новые карьерные ступеньки и создают уже свои команды.</p>
                 </div>
                 <div class="about-image">
                     <div class="video-placeholder">
@@ -67,11 +100,19 @@
                     </div>
                 <!-- Документы -->
                     <div class="documents-grid">
-                        <div class="document-card" onclick="openImage('img/свидетельство.jpg')">
-                            <img src="img/свидетельство.jpg" alt="Лицензия академии">
-                        </div>
-                        <div class="document-card" onclick="openImage('img/дипломы.jpg')">
-                            <img src="img/дипломы.jpg" alt="Сертификат">
+    <div class="document-wrapper">
+        <div class="document-card" onclick="openImage('img/свидетельство.jpg')">
+            <img src="img/свидетельство.jpg" alt="Свидетельство">
+        </div>
+        <p class="document-caption">Лицензированная школа "Арт-Влади" гарантирует качественные знания и документы, соответсвующие гос. стандартам</p>
+    </div>
+    <div class="document-wrapper">
+        <div class="document-card" onclick="openImage('img/дипломы.jpg')">
+            <img src="img/дипломы.jpg" alt="Дипломы">
+        </div>
+        <p class="document-caption"> Сертификат</p>
+        <p class="document-caption"> Диплом</p>
+        <p class="document-caption"> Свидетельство об образовании</p>
                         </div>
                     </div>
                 </div>
@@ -82,44 +123,73 @@
     <!-- Курсы -->
     <section class="courses" id="courses">
         <div class="container">
-            <h2 class="section-title"><span class="gold">Курсы</span></h2>
+            <h2 class="section-title">Курсы</h2>
             <div class="carousel-wrapper">
             <button class="carousel-arrow carousel-arrow-left" onclick="scrollCarousel(this, -1)">‹</button>
             <div class="courses-grid">
                 <!-- Курс 1 -->
+            <div class="course-wrapper">
                 <div class="course-card" >
-                    <img src="img/курс1.jpg" alt="Курс" class="course-image" onclick="openImage('img/курс1.jpg')">
-                    <img src="img/рамка.png" class="card-frame frame-course" alt="">
-                    <button class="course-btn" onclick="openModal(1)">Подробнее</button>
+                    <img src="img/курс1.png" alt="Курс" class="course-image" > <!-- onclick="openImage('img/') хз их может верну -->
                 </div>
-
+                <button class="course-btn" onclick="openModal(1)">Подробнее</button>
+            </div>
                 <!-- Курс 2 -->
+            <div class="course-wrapper">
                 <div class="course-card" >
-                    <img src="img/курс2.jpg" alt="Курс" class="course-image" onclick="openImage('img/курс2.jpg')">
-                    <img src="img/рамка.png" class="card-frame frame-course" alt="">
-                    <button class="course-btn" onclick="openModal(2)">Подробнее</button>
+                    <img src="img/курс2.png" alt="Курс" class="course-image" > <!-- onclick="openImage('img/') -->
                 </div>
+                <button class="course-btn" onclick="openModal(2)">Подробнее</button>
+            </div>
 
                 <!-- Курс 3 -->
+            <div class="course-wrapper">
                 <div class="course-card" >
-                    <img src="img/курс3.jpg" alt="Курс" class="course-image" onclick="openImage('img/курс3.jpg')">
-                    <img src="img/рамка.png" class="card-frame frame-course" alt="">
-                    <button class="course-btn" onclick="openModal(3)">Подробнее</button>
+                    <img src="img/курс3.png" alt="Курс" class="course-image" > <!-- onclick="openImage('img/') -->
                 </div>
+                <button class="course-btn" onclick="openModal(3)">Подробнее</button>
+            </div>
 
                 <!-- Курс 4 -->
+            <div class="course-wrapper">
                 <div class="course-card" >
-                    <img src="img/курс4.jpg" alt="Курс" class="course-image" onclick="openImage('img/курс4.jpg')">
-                    <img src="img/рамка.png" class="card-frame frame-course" alt="">
-                    <button class="course-btn" onclick="openModal(4)">Подробнее</button>
+                    <img src="img/курс4.png" alt="Курс" class="course-image" > <!-- onclick="openImage('img/') -->
                 </div>
+                <button class="course-btn" onclick="openModal(4)">Подробнее</button>
+            </div>
 
                 <!-- Курс 5 -->
+            <div class="course-wrapper">
                 <div class="course-card" >
-                    <img src="img/курс5.jpg" alt="Курс" class="course-image" onclick="openImage('img/курс5.jpg')">
-                    <img src="img/рамка.png" class="card-frame frame-course" alt="">
-                    <button class="course-btn" onclick="openModal(5)">Подробнее</button>
+                    <img src="img/курс5.png" alt="Курс" class="course-image" > <!-- onclick="openImage('img/') -->
                 </div>
+                <button class="course-btn" onclick="openModal(5)">Подробнее</button>
+            </div>
+
+                <!-- Курс 6 -->
+            <div class="course-wrapper">
+                <div class="course-card" >
+                    <img src="img/курс6.png" alt="Курс" class="course-image" > <!-- onclick="openImage('img/') -->
+                </div>
+                <button class="course-btn" onclick="openModal(6)">Подробнее</button>
+            </div>
+
+                <!-- Курс 7 -->
+            <div class="course-wrapper">
+                <div class="course-card" >
+                    <img src="img/курс7.png" alt="Курс" class="course-image" > <!-- onclick="openImage('img/') -->
+                </div>
+                <button class="course-btn" onclick="openModal(7)">Подробнее</button>
+            </div>
+
+                <!-- Курс 8 -->
+            <div class="course-wrapper">
+                <div class="course-card" >
+                    <img src="img/курс8.png" alt="Курс" class="course-image" > <!-- onclick="openImage('img/') -->
+                </div>
+                <button class="course-btn" onclick="openModal(8)">Подробнее</button>
+            </div>
+
             </div>
             <button class="carousel-arrow carousel-arrow-right" onclick="scrollCarousel(this, 1)">›</button>
             </div>
@@ -129,7 +199,7 @@
         <!-- Наши выпускницы -->
     <section class="advantages" id="advantages">
         <div class="container">
-            <h2 class="section-title">Наши <span class="gold">выпускницы</span></h2>
+            <h2 class="section-title">Наши выпускники</h2>
             <div class="carousel-wrapper">
             <button class="carousel-arrow carousel-arrow-left" onclick="scrollCarousel(this, -1)">‹</button>
             <div class="graduates-grid">
@@ -169,6 +239,30 @@
                         <img src="img/рамка.png" class="card-frame frame-graduate" alt="">
                     </div>
                 </div>
+                <div class="graduate-card">
+                    <div class="graduate-photo">
+                        <img src="img/выпуск7.jpg" alt="Выпускница 6">
+                        <img src="img/рамка.png" class="card-frame frame-graduate" alt="">
+                    </div>
+                </div>
+                <div class="graduate-card">
+                    <div class="graduate-photo">
+                        <img src="img/выпуск8.jpg" alt="Выпускница 6">
+                        <img src="img/рамка.png" class="card-frame frame-graduate" alt="">
+                    </div>
+                </div>
+                <div class="graduate-card">
+                    <div class="graduate-photo">
+                        <img src="img/выпуск9.jpg" alt="Выпускница 6">
+                        <img src="img/рамка.png" class="card-frame frame-graduate" alt="">
+                    </div>
+                </div>
+                <div class="graduate-card">
+                    <div class="graduate-photo">
+                        <img src="img/выпуск10.jpg" alt="Выпускница 6">
+                        <img src="img/рамка.png" class="card-frame frame-graduate" alt="">
+                    </div>
+                </div>
                 <button class="carousel-arrow carousel-arrow-right" onclick="scrollCarousel(this, 1)">›</button>
                 </div>
             </div>
@@ -178,7 +272,7 @@
         <!-- Наши чемпионки -->
     <section class="champions" id="champions">
         <div class="container">
-            <h2 class="section-title">Наши <span class="gold">чемпионки</span></h2>
+            <h2 class="section-title">Наши чемпионы</h2>
             <div class="carousel-wrapper">
             <button class="carousel-arrow carousel-arrow-left" onclick="scrollCarousel(this, -1)">‹</button>
             <div class="graduates-grid">
@@ -218,8 +312,90 @@
                         <img src="img/рамка.png" class="card-frame frame-graduate" alt="">
                     </div>
                 </div>
+                <div class="graduate-card">
+                    <div class="graduate-photo">
+                        <img src="img/чемп7.jpg" alt="Чемпионка 6">
+                        <img src="img/рамка.png" class="card-frame frame-graduate" alt="">
+                    </div>
+                </div>
+                <div class="graduate-card">
+                    <div class="graduate-photo">
+                        <img src="img/чемп8.jpg" alt="Чемпионка 6">
+                        <img src="img/рамка.png" class="card-frame frame-graduate" alt="">
+                    </div>
+                </div>
+                <div class="graduate-card">
+                    <div class="graduate-photo">
+                        <img src="img/чемп9.jpg" alt="Чемпионка 6">
+                        <img src="img/рамка.png" class="card-frame frame-graduate" alt="">
+                    </div>
+                </div>
+                <div class="graduate-card">
+                    <div class="graduate-photo">
+                        <img src="img/чемп10.jpg" alt="Чемпионка 6">
+                        <img src="img/рамка.png" class="card-frame frame-graduate" alt="">
+                    </div>
+                </div>
                 <button class="carousel-arrow carousel-arrow-right" onclick="scrollCarousel(this, 1)">›</button>
                 </div>
+            </div>
+        </div>
+    </section>
+
+        <!-- Отзывы -->
+    <section class="reviews" id="reviews">
+        <div class="container">
+            <h2 class="section-title">Отзывы</h2>
+            <div class="carousel-wrapper">
+                <button class="carousel-arrow carousel-arrow-left" onclick="scrollCarousel(this, -1)">‹</button>
+                <div class="reviews-grid">
+                    <div class="review-card">
+                        <div class="review-photo">
+                            <img src="img/отзыв1.jpg" alt="Отзыв 1">
+                        </div>
+                    </div>
+                    <div class="review-card">
+                        <div class="review-photo">
+                            <img src="img/отзыв2.jpg" alt="Отзыв 2">
+                        </div>
+                    </div>
+                    <div class="review-card">
+                        <div class="review-photo">
+                            <img src="img/отзыв3.jpg" alt="Отзыв 3">
+                        </div>
+                    </div>
+                    <div class="review-card">
+                        <div class="review-photo">
+                            <img src="img/отзыв4.jpg" alt="Отзыв 4">
+                        </div>
+                    </div>
+                    <div class="review-card">
+                        <div class="review-photo">
+                            <img src="img/отзыв5.jpg" alt="Отзыв 5">
+                        </div>
+                    </div>
+                    <div class="review-card">
+                        <div class="review-photo">
+                            <img src="img/отзыв6.jpg" alt="Отзыв 6">
+                        </div>
+                    </div>
+                    <div class="review-card">
+                        <div class="review-photo">
+                            <img src="img/отзыв7.jpg" alt="Отзыв 7">
+                        </div>
+                    </div>
+                    <div class="review-card">
+                        <div class="review-photo">
+                            <img src="img/отзыв8.jpg" alt="Отзыв 8">
+                        </div>
+                    </div>
+                    <div class="review-card">
+                        <div class="review-photo">
+                            <img src="img/отзыв9.jpg" alt="Отзыв 9">
+                        </div>
+                    </div>
+                </div>
+                <button class="carousel-arrow carousel-arrow-right" onclick="scrollCarousel(this, 1)">›</button>
             </div>
         </div>
     </section>
@@ -227,13 +403,14 @@
     <!-- Контакты -->
     <section class="contact" id="contact">
         <div class="container">
-            <h2 class="section-title">Свяжитесь <span class="gold">с нами</span></h2>
+            <h2 class="section-title">Свяжитесь с нами</h2>
             <div class="contact-content">
                 <div class="contact-info">
                     <p><strong>Адрес:</strong> г. Горячий ключ, ул. Ленина 220/2</p>
                     <p><strong>Телефон:</strong> +7 (962) 408-51-51</p>
-                    <p><strong>Канал в MAX:</strong> <a href="https://max.ru/channel_Artvladi">Академия "Арт-Влади"</a></p>
                     <p><strong>Часы работы:</strong> Пн-Сб: 9:00 - 19:00</p>
+                    <p><strong>Канал в MAX:</strong> <a href="https://max.ru/channel_Artvladi">Академия "Арт-Влади"</a></p>
+                    <p><strong>Мы в ВК:</strong> <a href="https://vk.ru/artvladi_nails_gk">vk.ru/artvladi_nails_gk</a></p>
                 </div>
             </div>
         </div>
