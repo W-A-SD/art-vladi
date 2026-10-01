@@ -135,7 +135,7 @@ function showNotification(message) {
 
 // Анимация элементов при скролле
 function revealOnScroll() {
-    const elements = document.querySelectorAll('.course-card, .advantage-item');
+    const elements = document.querySelectorAll('.advantage-item');
     
     elements.forEach(element => {
         const elementTop = element.getBoundingClientRect().top;
@@ -151,7 +151,7 @@ function revealOnScroll() {
 
 // Инициализация стилей для анимации скролла
 document.addEventListener('DOMContentLoaded', function() {
-    const elements = document.querySelectorAll('.course-card, .advantage-item');
+    const elements = document.querySelectorAll('.advantage-item');
     elements.forEach(element => {
         element.style.transition = 'all 0.6s ease-out';
         element.style.opacity = '0';
