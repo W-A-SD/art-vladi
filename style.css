@@ -1132,20 +1132,23 @@ section {
 }
 
 
-/* Адаптивность для горизонтального скролла */
+/* Адаптивность для мобильных */
 @media (max-width: 768px) {
-    .course-card,
     .graduate-card {
         flex: 0 0 85%;
     }
     
-    .course-card {
-        aspect-ratio: 5 / 4;
+    .graduate-photo {
+        aspect-ratio: 4 / 5;
         height: auto;
     }
     
-    .graduate-photo {
-        aspect-ratio: 4 / 5;
+    .course-wrapper {
+        flex: 0 0 85%;
+    }
+    
+    .course-wrapper .course-card {
+        aspect-ratio: 5 / 4;
         height: auto;
     }
 
@@ -1156,22 +1159,43 @@ section {
         margin-top: 15px;
     }
     
-    .courses-grid,
     .graduates-grid {
         gap: 15px;
         padding: 10px 20px;
     }
     
+    /* Курсы — вертикальный скролл на телефоне */
+    .courses-grid {
+        flex-direction: column;
+        overflow-x: hidden;
+        overflow-y: auto;
+        max-height: 70vh;   /* ← высота видимой области */
+        padding: 10px 20px;
+        gap: 20px;
+    }
+    
+    .courses-grid .course-wrapper {
+        flex: 0 0 auto;
+        width: 100%;
+    }
+    
+    .courses-grid .course-wrapper .course-card {
+        width: 100%;
+    }
+    
     /* Скрываем скроллбар на мобильных */
-    .courses-grid::-webkit-scrollbar,
     .graduates-grid::-webkit-scrollbar {
         display: none;
     }
     
-    .courses-grid,
     .graduates-grid {
         scrollbar-width: none;
         -ms-overflow-style: none;
+    }
+    
+    /* Скрываем стрелки на мобильных */
+    .carousel-arrow {
+        display: none;
     }
 }
 
