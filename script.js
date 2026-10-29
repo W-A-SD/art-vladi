@@ -238,7 +238,7 @@ function openModal(courseNumber) {
                 </div>
                 <div class="modal-section">
                     <h3 class="modal-section-title">ЦЕНА</h3>
-                    <p><strong>25 000 ₽</strong></p>
+                    <p><strong></strong></p>
                     <p>Рассрочка через банки-партнёры (Т-Банк, СберБанк).</p>
                 </div>
                 <div class="modal-section">
@@ -297,7 +297,7 @@ function openModal(courseNumber) {
                 </div>
                 <div class="modal-section">
                     <h3 class="modal-section-title">ЦЕНА</h3>
-                    <p><strong>35 000 ₽</strong></p>
+                    <p><strong></strong></p>
                     <p>Рассрочка через банки-партнёры (Т-Банк, СберБанк).</p>
                 </div>
                 <div class="modal-section">
@@ -355,7 +355,7 @@ function openModal(courseNumber) {
                 </div>
                 <div class="modal-section">
                     <h3 class="modal-section-title">ЦЕНА</h3>
-                    <p><strong>7900 ₽</strong></p>
+                    <p><strong></strong></p>
                 </div>
                 <div class="modal-section">
                     <h3 class="modal-section-title">ЧТО ВХОДИТ</h3>
@@ -398,7 +398,7 @@ function openModal(courseNumber) {
                 </div>
                 <div class="modal-section">
                     <h3 class="modal-section-title">ЦЕНА</h3>
-                    <p>От <strong>10 000 ₽</strong> (в зависимости от сложности номинации)</p>
+                    <p>От <strong></strong> (в зависимости от сложности номинации)</p>
                     <p>Рассрочка через банки-партнёры (Т-Банк, СберБанк).</p>
                 </div>
                 <div class="modal-section">
@@ -445,7 +445,7 @@ function openModal(courseNumber) {
                 </div>
                 <div class="modal-section">
                     <h3 class="modal-section-title">ЦЕНА</h3>
-                    <p><strong>45 000 ₽</strong></p>
+                    <p><strong></strong></p>
                     <p>Рассрочка через банки-партнёры (Т-Банк, СберБанк).</p>
                 </div>
                 <div class="modal-section">
@@ -503,7 +503,7 @@ function openModal(courseNumber) {
                 </div>
                 <div class="modal-section">
                     <h3 class="modal-section-title">ЦЕНА</h3>
-                    <p><strong>5 900 ₽</strong></p>
+                    <p><strong></strong></p>
                 </div>
                 <div class="modal-section">
                     <h3 class="modal-section-title">ЧТО ВХОДИТ</h3>
@@ -557,7 +557,7 @@ function openModal(courseNumber) {
                 </div>
                 <div class="modal-section">
                     <h3 class="modal-section-title">ЦЕНА</h3>
-                    <p><strong>5 900 ₽</strong></p>
+                    <p><strong></strong></p>
                 </div>
                 <div class="modal-section">
                     <h3 class="modal-section-title">ЧТО ВХОДИТ</h3>
@@ -622,7 +622,7 @@ function openModal(courseNumber) {
                 </div>
                 <div class="modal-section">
                     <h3 class="modal-section-title">ЦЕНА</h3>
-                    <p><strong>8 900 ₽</strong></p>
+                    <p><strong></strong></p>
                 </div>
                 <div class="modal-section">
                     <h3 class="modal-section-title">ЧТО ВХОДИТ</h3>
